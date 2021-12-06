@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box-red {
+  background-color: red;
+}
+
+.box-green {
+  background-color: green;
+}
+
+.box-blue {
+  background-color: blue;
+}
+
+.box-yellow {
+  background-color: yellow;
+}
+
+.box-green,
+.box-red,
+.box-blue,
+.box-yellow {
+  display: inline-block;
+  width: 40%;
+  height: 300px;
+  width: 40%;
+}
+
+.box {
+  padding: 8px 16px;
+  margin: 8px 16px;
+  border: 1px solid black;
+}
+
+.box:last-of-type:hover {
+  background-color: aqua;
+}

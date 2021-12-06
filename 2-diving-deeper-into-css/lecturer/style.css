@@ -1,0 +1,87 @@
+/* 
+** Sudo Class Titik 2 nya 1
+** Sudo Element Titik 2 nya 2
+*/
+
+@font-face {
+  font-family: NotoSansRegular;
+  src: url("./fonts/NotoSans-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: NotoSansRegular;
+}
+
+body {
+  color: #40414f;
+}
+
+.main-header {
+  background-color: aquamarine;
+  padding: 8px 16px;
+  width: 100%;
+}
+
+.main-header > .main-nav > .main-nav__items > .main-nav__item {
+  list-style-type: none;
+  display: inline-block;
+  padding: 4px 16px;
+}
+
+.main-header > .main-nav > .main-nav__items {
+  text-align: right;
+}
+
+.main-nav > .main-nav__items > .main-nav__item > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #40414f;
+}
+
+.main-nav > .main-nav__items > .main-nav__item > a:hover,
+.main-nav > .main-nav__items > .main-nav__item > a:active {
+  color: white;
+  border-bottom: 5px solid white;
+}
+
+.main-header > .main-nav {
+  display: inline-block;
+  width: calc(100% - 66px);
+  vertical-align: middle;
+}
+
+.main-header > .main-header__container-brand {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header > .main-header__container-brand > .main-header__brand {
+  text-decoration: none;
+  color: inherit;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.main-nav > .main-nav__items > .main-nav__item-cta > a {
+  color: white;
+  background-color: #ff1b68;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+.main-nav > .main-nav__items > .main-nav__item-cta > a:hover,
+.main-nav > .main-nav__items > .main-nav__item-cta > a:active {
+  color: #ff1b68;
+  background-color: white;
+  border-bottom: none;
+}
+
+#product-overview {
+  height: 528px;
+  background: url('./img/freedom.jpg');
+  padding: 10px;
+  width: 100%;
+}

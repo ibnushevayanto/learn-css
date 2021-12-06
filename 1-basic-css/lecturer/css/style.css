@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "NotoRegular";
+  src: url("../fonts/NotoSans-Regular.ttf");
+}
+
+.adjacent-sibling > h1 + p {
+  background-color: red;
+}
+
+.general-sibling > h1 ~ p {
+  background-color: green;
+}
+
+.sibling {
+  margin: 10 0;
+  background-color: lightblue;
+}
+
+.child-sibling > p {
+  background-color: blue;
+}
+
+.descendant-sibling  p {
+  background-color: orange;
+}
