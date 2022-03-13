@@ -1,0 +1,44 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container-list-packages {
+  background-color: #cff7d8;
+  display: inline-block;
+  margin: 16px 0;
+  border: 4px solid #0e4f1f;
+  border-left: none;
+  width: 80%;
+}
+
+.container-list-packages > a {
+  padding: 32px;
+  display: block;
+}
+
+.container-list-packages:hover {
+  border-color: orangered;
+}
+
+.container-list-packages__title {
+  color: black;
+}
+
+.container-list-packages__subtitle {
+  color: #979797;
+}
+
+.container-list-packages--highlighted {
+  background-color: #0e4f1f;
+}
+
+.container-list-packages--highlighted .container-list-packages__title {
+  color: white;
+}
+
+.container-list-packages__description {
+  padding: 16px;
+  background-color: white;
+  border: 1px solid #0e4f1f;
+}
